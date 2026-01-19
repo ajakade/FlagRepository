@@ -24,7 +24,7 @@ function ColorFilter({ selectedColors, onChange }) {
 
   return (
     <div className="bg-white p-4 rounded-3 shadow-sm">
-      <h4 className="mb-4 fw-bold text-primary">🎨 Filtrer par couleur</h4>
+      <h4 className="mb-4 fw-bold text-primary">Filtrer par couleur</h4>
       <div className="row g-3">
         {FLAG_COLORS.map(({ name, code }) => (
           <div key={name} className="col-6 col-sm-4 col-md-3 col-lg-2">
